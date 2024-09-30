@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1c1c1c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+a {
+    text-decoration: none; /* Remove a linha sublinhada */
+}
+
+
+.action-button {
+    color: white; /* Cor do texto */
+    border: none; /* Sem borda */
+    border-radius: 5px; /* Bordas arredondadas */
+    padding: 10px 15px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Cursor de mão ao passar o mouse */
+    margin: 5px 0; /* Margem superior e inferior */
+    transition: background-color 0.3s ease, transform 0.2s; /* Efeito de transição */
+}
+
+/* Botão de Adicionar Leitos */
+#addLeitoButton {
+    background-color: #4CAF50; /* Verde */
+}
+
+#addLeitoButton:hover {
+    background-color: #45a049; /* Verde mais escuro ao passar o mouse */
+}
+
+/* Botão de Remover Leito */
+#removeLeitoButton {
+    background-color: #f44336; /* Vermelho */
+}
+
+#removeLeitoButton:hover {
+    background-color: #d32f2f; /* Vermelho mais escuro ao passar o mouse */
+}
+
+/* Botão de Sair */
+#logoutButton {
+    background-color: #b60000; /* Vermelho forte */
+    margin-top: 20px; /* Espaço acima do botão Sair */
+}
+
+#logoutButton:hover {
+    background-color: #e60000; /* Vermelho mais escuro ao passar o mouse */
+}
+
+.container {
+    width: 320px;
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+}
+
+.header {
+    background-color: #8b0000;
+    color: white;
+    padding: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.card {
+    background-color: #e6e6e6;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.leitos-pendentes {
+    background-color: #8b0000; /* Vermelho escuro */
+    color: white;
+    transition: background-color 0.3s; /* Transição suave */
+}
+
+.leitos-pendentes:hover {
+    background-color: #b22222; /* Vermelho mais claro ao passar o mouse */
+}
+
+.leitos-disponiveis {
+    background-color: #0073a8; /* Azul */
+    color: white;
+    transition: background-color 0.3s; /* Transição suave */
+}
+
+.leitos-disponiveis:hover {
+    background-color: #1e90ff; /* Azul mais claro ao passar o mouse */
+}
+
+.card p {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.notification-dot {
+    background-color: red;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    position: absolute;
+    top: -6px; /* Metade fora do box */
+    right: -6px; /* Metade fora do box */
+}
