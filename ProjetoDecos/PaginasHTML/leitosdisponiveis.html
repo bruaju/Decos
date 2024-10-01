@@ -32,7 +32,7 @@
                 const leitoDiv = document.createElement('div');
                 leitoDiv.classList.add('leito-item');
                 leitoDiv.innerHTML = `
-                    <span>Leito ${leito.numero || 'N/A'} - Limpo por ${leito.responsavel || 'N/A'} às ${leito.horario || 'N/A'}</span>
+                    <span>Leito ${leito.numero || 'N/A'} - Limpo por <strong>${leito.responsavel || 'N/A'}</strong> às <strong>${leito.horario || 'N/A'}</strong></span>
                     <button onclick="marcarComoPendente(${index})">Marcar como Pendente</button>
                 `;
                 leitosGrid.appendChild(leitoDiv);

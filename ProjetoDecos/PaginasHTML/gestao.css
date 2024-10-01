@@ -13,64 +13,67 @@ body {
     font-family: Arial, sans-serif;
 }
 a {
-    text-decoration: none; /* Remove a linha sublinhada */
+    text-decoration: none; 
 }
 
 
 .action-button {
-    color: white; /* Cor do texto */
-    border: none; /* Sem borda */
-    border-radius: 5px; /* Bordas arredondadas */
-    padding: 10px 15px; /* Espaçamento interno */
-    font-size: 16px; /* Tamanho da fonte */
-    cursor: pointer; /* Cursor de mão ao passar o mouse */
-    margin: 5px 0; /* Margem superior e inferior */
-    transition: background-color 0.3s ease, transform 0.2s; /* Efeito de transição */
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px 15px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    margin: 5px 0; 
+    transition: background-color 0.3s ease, transform 0.2s; 
 }
 
-/* Botão de Adicionar Leitos */
+.logo img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
 #addLeitoButton {
-    background-color: #4CAF50; /* Verde */
+    background-color: #4CAF50; 
 }
 
 #addLeitoButton:hover {
-    background-color: #45a049; /* Verde mais escuro ao passar o mouse */
+    background-color: #45a049; 
 }
 
-/* Botão de Remover Leito */
+
 #removeLeitoButton {
-    background-color: #f44336; /* Vermelho */
+    background-color: #f44336; 
 }
 
 #removeLeitoButton:hover {
-    background-color: #d32f2f; /* Vermelho mais escuro ao passar o mouse */
+    background-color: #d32f2f; 
 }
 
-/* Botão de Sair */
+
 #logoutButton {
-    background-color: #b60000; /* Vermelho forte */
-    margin-top: 20px; /* Espaço acima do botão Sair */
+    background-color: #b60000; 
+    margin-top: 20px; 
 }
 
 #logoutButton:hover {
-    background-color: #e60000; /* Vermelho mais escuro ao passar o mouse */
+    background-color: #e60000; 
 }
 
 .container {
     width: 320px;
-    background-color: #f2f2f2;
+    background-color: #dddddd;
     border-radius: 15px;
     padding: 20px;
     text-align: center;
 }
 
 .header {
-    background-color: #8b0000;
-    color: white;
+    color: #8b0000;
     padding: 15px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .header h1 {
